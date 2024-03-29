@@ -21,10 +21,17 @@
     "autoload": {
         "psr-4": {
             "App\\": "app/",
+            "App\\Clients\\": "app/Clients",
+            "App\\Articles\\": "app/Articles",
+            "App\\Email\\": "app/Email",
+            "App\\RSS\\": "app/RSS",
+            "App\\Settings\\": "app/Settings",
+            "App\\Reports\\": "app/Reports",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"
         }
-    },
+    }
+    ,
     "autoload-dev": {
         "psr-4": {
             "Tests\\": "tests/"
